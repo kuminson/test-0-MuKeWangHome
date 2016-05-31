@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/*初始化样式*/
+*{margin:0; padding:0;}
+body{ font-family:"微软雅黑";}
+/*网页头部样式*/
+.head{width:1000px; height:70px; margin:0 auto 10px;}
+.head img{float:left;}
+.head li{ float:left; list-style-type:none;}
+.head a{ text-decoration:none; color:black; display:block; width:100px; height:70px; line-height:70px; text-align:center;}
+.head a:hover,.head a:active{ background-color:#C00;}
+/*网页主体样式*/
+/*焦点图片样式*/
+#run_pic{ margin:0 auto;}
+/*滚动新闻样式*/
+.roll_new{ margin:5px auto; width:1000px; height:30px; }
+.roll_left{ width:120px; line-height:30px; background-color:#C03; text-align:center; float:left; color:#FFF;}
+.roll_right{float:left; overflow:hidden; width:880px; height:30px; background-color:#666; }
+.roll_right ul{float:left;  width:880px;  line-height:30px; text-indent:2em; list-style-type:none;}
+.roll_new a{ text-decoration:none; color:#FFF;}
+/*图片课程*/
+.cls{ margin:0 auto; width:1000px;}
+.cls span{ padding:0 110px;}
+.cls_mid{ margin:0 5px;}
+/*主要内容*/
+.main_new{ width:1000px; margin:0 auto; margin-top:10px;}
+.main_new>span{ background-color:#C03; line-height:30px; color:#FFF; text-align:center; padding:5px 245px 5px 20px;}
+.main_new div{ width:320px; height:300px; float:left;  margin-top:10px;}
+.main_new_data span{ display:block; height:40px; width:50px; background-color:#C03; color:#FFF; font-size:14px; text-align:center; padding:10px 0; margin:15px 5px; float:left; border-radius:10px;}
+.main_new_data strong{ font-size:15px; margin:5px auto; display:block;}
+.main_new_data p{ font-size:15px; width:300px;}
+.main_new_mid{ margin:0 15px;}
+.main_new_mid img{ width:250px; margin:5px auto; padding:10px; display:block; }
+.main_new_mid p{ text-align:center;}
+.main_new_right p{ margin:0 0 40px 0; padding:10px;}
+.foot{ width:1000px; height:40px; line-height:40px; text-align:center; margin:0 auto; background-color:#ccc; clear:both;}
